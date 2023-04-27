@@ -83,11 +83,11 @@ namespace Calculator
                 textBox1.Text = "-" + textBox1.Text;
                 znak = false;
             }
-            else if (znak==false)
-            {
-                textBox1.Text=textBox1.Text.Replace("-", "");
-                znak = true;
-            }
+            //else if (znak==false)
+            //{
+            //    textBox1.Text=textBox1.Text.Replace("-", "");
+            //    znak = true;
+            //}
             
         }
 
